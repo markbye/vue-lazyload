@@ -119,7 +119,8 @@ Vue.use(VueLazyload, {
   loading: 'dist/loading.gif',
   attempt: 1,
   // the default is ['scroll', 'wheel', 'mousewheel', 'resize', 'animationend', 'transitionend']
-  listenEvents: [ 'scroll' ]
+  listenEvents: [ 'scroll' ],
+  lazyComponent:lazyComponent
 })
 ```
 
